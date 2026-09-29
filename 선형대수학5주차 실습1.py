@@ -8,7 +8,7 @@ A = np.array([
 
 original_A = A.copy()
 swap_count = 0
-
+#
 def show(step,matrix):
     print(f"\n{step}")
     print(matrix)
