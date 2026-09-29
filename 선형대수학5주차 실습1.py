@@ -9,7 +9,7 @@ A = np.array([
 original_A = A.copy()
 swap_count = 0
 
-def show(step, matrix):
+def show(step,matrix):
     print(f"\n{step}")
     print(matrix)
 
@@ -45,6 +45,6 @@ print(A)
 print("\n대각 원소의 곱",diagonal_product)
 print("행 교환 횟수:",swap_count)
 print("det(A) =",det_A)
-
+#ds
 det_check=round(np.linalg.det(original_A))
 print("\nNumpy를 이용한 det(A) 계산:",det_check)
